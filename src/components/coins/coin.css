@@ -1,0 +1,15 @@
+.container{
+      max-width: 1000px;
+      margin: auto  
+}
+
+.coin-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      margin-top: 2rem;
+      padding: 0.7rem 3rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-weight: 500;
+}

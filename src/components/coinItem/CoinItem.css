@@ -1,0 +1,34 @@
+.coin-row{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         color: white;
+         margin-top: 2rem;
+         padding: 0.7rem 3rem;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         font-weight: 500;
+        
+}
+.coin-row:hover{
+         transform: scale(1.04);
+         transition: .3s ease-in-out;
+         cursor: pointer;
+}
+.img-symbol{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+}
+.img-symbol img{
+         max-width: 2rem;
+         display: flex;
+        }
+.img-symbol p{
+         text-align: left;
+         font-size: 1rem;
+         margin-left: 3rem;
+}
+.coin-row span{
+         color: aqua;
+         margin-right: 0.3rem;
+}
